@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function HeroTwo() {
+export default function Section() {
   return (
     <div className='flex flex-col items-center justify-around px-5 py-14 lg:px-8 lg:py-4 lg:flex-row'>
       <div className='flex flex-col items-center xl:w-1/2'>

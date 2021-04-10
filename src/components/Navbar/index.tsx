@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import dynamic from 'next/dynamic'
 
-export default function Navbar() {
+import React, { useState, useEffect } from "react";
+
+export default function Navbar({scrollActive}) {
   const [isOpenMenu, setIsOpenM] = useState(false);
   const [isOpenProjetos, setIsOpenP] = useState(false);
+
   return (
-    <nav className="bg-transparent fixed top-0 w-full z-20">
+    <nav className={scrollActive === true ? "bg-blue-900 fixed top-0 w-full z-20 transition delay-200" : "bg-transparent fixed top-0 w-full z-20 transition delay-200"}>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
@@ -194,7 +197,7 @@ export default function Navbar() {
         className={`${isOpenMenu ? "sm:hidden" : "hidden"}`}
         id="mobile-menu"
       >
-        <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className={scrollActive === true ? "px-2 pt-2 pb-3 space-y-1":"px-2 pt-2 pb-3 space-y-1 bg-black bg-opacity-30"}>
           <a
             href="#"
             className="flex flex-row items-center text-white hover:bg-blue-400 hover:bg-opacity-20 block px-3 py-2 rounded-md text-sm font-light"
