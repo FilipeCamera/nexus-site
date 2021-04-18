@@ -2,9 +2,11 @@ import Image from 'next/image'
 
 export default function Section() {
   return (
-    <div className='flex flex-col items-center justify-around px-5 py-14 lg:px-8 lg:py-4 lg:flex-row'>
+    <div className='h-screen flex flex-col items-center justify-around px-5 lg:px-8 lg:flex-row'>
       <div className='flex flex-col items-center xl:w-1/2'>
-        <h2 className='font-sans text-gray-800 font-medium my-2 text-2xl'>Sobre Nós</h2>
+        <div className='lg:border-b-0 lg:w-full border-b w-4/5 flex items-center justify-center'>
+          <h2 className='font-sans text-gray-800 font-medium my-2 text-lg lg:text-2xl'>Sobre Nós</h2>
+        </div>
         <p className='font-sans text-gray-600 py-4 xl:py-0 xl:text-center text-justify text-sm xl:text-base'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae

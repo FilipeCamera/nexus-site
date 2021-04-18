@@ -1,8 +1,12 @@
 import dynamic from 'next/dynamic'
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-export default function Navbar({scrollActive}) {
+interface NavBarProps {
+  scrollActive: any
+}
+
+export default function Navbar({scrollActive}: NavBarProps) {
   const [isOpenMenu, setIsOpenM] = useState(false);
   const [isOpenProjetos, setIsOpenP] = useState(false);
 

@@ -6,6 +6,8 @@ import Navbar from "../components/Navbar";
 import Head from 'next/head'
 import Section from "../components/Section";
 import dynamic from "next/dynamic";
+import PartnerSection from '../components/PartnerSection';
+import GroupSection from '../components/GroupSection';
 
 export default function Home() {
   const [active, setActive] = useState(false)
@@ -19,6 +21,8 @@ export default function Home() {
       <Navbar scrollActive={active}/>
       <Hero />
       <Section />
+      <PartnerSection />
+      <GroupSection />
     </div>
   )
 }
