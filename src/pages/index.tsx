@@ -8,6 +8,8 @@ import Section from "../components/Section";
 import dynamic from "next/dynamic";
 import PartnerSection from '../components/PartnerSection';
 import GroupSection from '../components/GroupSection';
+import GalerySection from '../components/GalerySection';
+
 
 export default function Home() {
   const [active, setActive] = useState(false)
@@ -23,6 +25,7 @@ export default function Home() {
       <Section />
       <PartnerSection />
       <GroupSection />
+      <GalerySection />
     </div>
   )
 }

@@ -6,7 +6,6 @@ interface ScrollProps {
 
 export default function Scroll({setActive}: ScrollProps) {
   const onScroll = () => {
-    console.log(window.scrollY)
     if(window.scrollY >= 120) {
       return setActive(true)
     } else {
