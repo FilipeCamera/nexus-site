@@ -364,10 +364,10 @@ export default function PartnerSection() {
           </div>
         ) : null}
       </div>
-      <div className='py-2'>
+      <div className='py-5'>
         <div
           onClick={() => setActive(!active)}
-          className="hover:text-orange-700 flex items-center justify-center text-orange-600 shadow-lg w-10 h-10 rounded-full transition duration-200"
+          className="hover:text-orange-700 flex items-center justify-center text-orange-600 shadow-lg w-10 h-10 rounded-full transition duration-200 cursor-pointer"
         >
           {active === false ? (
             <svg

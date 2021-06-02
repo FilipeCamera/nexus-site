@@ -258,7 +258,7 @@ export default function Navbar({scrollActive}: NavBarProps) {
           <div className="relative flex flex-col items-center">
             <button
               type="button"
-              className="w-full text-white group hover:bg-blue-400 hover:bg-opacity-20 rounded-md px-3 py-2 inline-flex items-center text-sm font-light focus:outline-none"
+              className="w-full text-white group hover:bg-blue-400 hover:bg-opacity-20 rounded-md px-3 py-2 mb-2 inline-flex items-center text-sm font-light focus:outline-none"
               aria-expanded="false"
               onClick={() => setIsOpenP(!isOpenProjetos)}
             >
