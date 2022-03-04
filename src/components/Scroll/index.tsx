@@ -1,12 +1,12 @@
-import { useEffect } from "react";
+import { useEffect } from 'react'
 
 interface ScrollProps {
   setActive: any
 }
 
-export default function Scroll({setActive}: ScrollProps) {
+export default function Scroll({ setActive }: ScrollProps) {
   const onScroll = () => {
-    if(window.scrollY >= 120) {
+    if (window.scrollY >= 120) {
       return setActive(true)
     } else {
       return setActive(false)
@@ -14,7 +14,7 @@ export default function Scroll({setActive}: ScrollProps) {
   }
 
   useEffect(() => {
-    if(typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       window.addEventListener('scroll', onScroll)
     }
   })

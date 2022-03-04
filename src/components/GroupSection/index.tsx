@@ -59,7 +59,9 @@ export default function GroupSection() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base font-medium text-gray-800">Dra. Cintia Armond</h2>
+              <h2 className="text-base font-medium text-gray-800">
+                Dra. Cintia Armond
+              </h2>
               <span className="text-orange-600 text-sm block mb-5">
                 Front End Developer
               </span>
@@ -74,7 +76,9 @@ export default function GroupSection() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base font-medium text-gray-800">Dra. Camila</h2>
+              <h2 className="text-base font-medium text-gray-800">
+                Dra. Camila
+              </h2>
               <span className="text-orange-600 text-sm block mb-5">
                 Front End Developer
               </span>
@@ -191,44 +195,44 @@ export default function GroupSection() {
             </div>
           </>
         ) : null}
+      </div>
+      <div className="py-5">
+        <div
+          onClick={() => setActive(!active)}
+          className="hover:text-orange-700 flex items-center justify-center text-orange-600 shadow-lg w-10 h-10 rounded-full transition duration-200 cursor-pointer"
+        >
+          {active === false ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 15l7-7 7 7"
+              />
+            </svg>
+          )}
         </div>
-        <div className="py-5">
-          <div
-            onClick={() => setActive(!active)}
-            className="hover:text-orange-700 flex items-center justify-center text-orange-600 shadow-lg w-10 h-10 rounded-full transition duration-200 cursor-pointer"
-          >
-            {active === false ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg>
-            )}
-          </div>
       </div>
     </div>
   )

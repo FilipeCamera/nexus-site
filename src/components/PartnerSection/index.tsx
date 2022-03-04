@@ -31,10 +31,10 @@ export default function PartnerSection() {
                   </p>
                 </dt>
                 <dd className="mt-1 ml-16 text-sm lg:text-base text-gray-500 font-sans text-justify">
-                  Associação de Desenvolvimento Sustentável e Solidário da Região
-                  Sisaleira: articulação com todas as ações do projeto e com os produtores
-                  de sisal (Agave sisalana Perrine) inseridos no Bioma Caatinga.
-                  Localizada no município de Valente, Bahia.
+                  Associação de Desenvolvimento Sustentável e Solidário da
+                  Região Sisaleira: articulação com todas as ações do projeto e
+                  com os produtores de sisal (Agave sisalana Perrine) inseridos
+                  no Bioma Caatinga. Localizada no município de Valente, Bahia.
                 </dd>
                 <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                   <a href="#" className="mb-1 mr-2">
@@ -74,10 +74,11 @@ export default function PartnerSection() {
                   </p>
                 </dt>
                 <dd className="mt-1 ml-16 text-sm lg:text-base text-gray-500 text-justify">
-                  uma das áreas no Bioma Caatinga para instalação de sistemas de produção
-                  de sisal integrados ao Bioma Caatinga e com área para oficinas,
-                  /oficinas/reuniões de discussão das ações do projeto para produtores e
-                  filhos de produtores que estudam nas escolas agrícolas.
+                  uma das áreas no Bioma Caatinga para instalação de sistemas de
+                  produção de sisal integrados ao Bioma Caatinga e com área para
+                  oficinas, /oficinas/reuniões de discussão das ações do projeto
+                  para produtores e filhos de produtores que estudam nas escolas
+                  agrícolas.
                 </dd>
                 <dd className="cursor-pointer text-sm lg:text-base flex flex-row items-center mt-6 ml-16 font-sans font-semibold text-orange-600 hover:text-orange-700">
                   <a href="#" className="mb-1 mr-2">
@@ -113,13 +114,14 @@ export default function PartnerSection() {
                     </svg>
                   </div>
                   <p className="ml-16 lg:text-lg text-base leading-6 font-medium text-gray-900">
-                    Escola Família Agrícola do Sertão, Monte Santo (EFASE), Bahia
+                    Escola Família Agrícola do Sertão, Monte Santo (EFASE),
+                    Bahia
                   </p>
                 </dt>
                 <dd className="mt-2 ml-16 lg:text-base text-sm text-justify text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                  impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-                  ratione.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Maiores impedit perferendis suscipit eaque, iste dolor
+                  cupiditate blanditiis ratione.
                 </dd>
                 <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 text-sm lg:text-base font-sans font-semibold text-orange-600 hover:text-orange-700">
                   <a href="#" className="mb-1 mr-2">
@@ -159,9 +161,9 @@ export default function PartnerSection() {
                   </p>
                 </dt>
                 <dd className="mt-2 ml-16 lg:text-base text-sm text-justify text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                  impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-                  ratione.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Maiores impedit perferendis suscipit eaque, iste dolor
+                  cupiditate blanditiis ratione.
                 </dd>
                 <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                   <a href="#" className="mb-1 mr-2">
@@ -207,10 +209,11 @@ export default function PartnerSection() {
                     </p>
                   </dt>
                   <dd className="mt-1 ml-16 lg:text-base text-sm text-gray-500 font-sans text-justify">
-                    Associação de Desenvolvimento Sustentável e Solidário da Região
-                    Sisaleira: articulação com todas as ações do projeto e com os
-                    produtores de sisal (Agave sisalana Perrine) inseridos no Bioma
-                    Caatinga. Localizada no município de Valente, Bahia.
+                    Associação de Desenvolvimento Sustentável e Solidário da
+                    Região Sisaleira: articulação com todas as ações do projeto
+                    e com os produtores de sisal (Agave sisalana Perrine)
+                    inseridos no Bioma Caatinga. Localizada no município de
+                    Valente, Bahia.
                   </dd>
                   <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                     <a href="#" className="mb-1 mr-2">
@@ -250,10 +253,11 @@ export default function PartnerSection() {
                     </p>
                   </dt>
                   <dd className="mt-1 ml-16 lg:text-base text-sm text-justify text-gray-500">
-                    uma das áreas no Bioma Caatinga para instalação de sistemas de
-                    produção de sisal integrados ao Bioma Caatinga e com área para
-                    oficinas, /oficinas/reuniões de discussão das ações do projeto para
-                    produtores e filhos de produtores que estudam nas escolas agrícolas.
+                    uma das áreas no Bioma Caatinga para instalação de sistemas
+                    de produção de sisal integrados ao Bioma Caatinga e com área
+                    para oficinas, /oficinas/reuniões de discussão das ações do
+                    projeto para produtores e filhos de produtores que estudam
+                    nas escolas agrícolas.
                   </dd>
                   <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                     <a href="#" className="mb-1 mr-2">
@@ -293,9 +297,9 @@ export default function PartnerSection() {
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 lg:text-base text-sm text-justify text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                    impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-                    ratione.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maiores impedit perferendis suscipit eaque, iste dolor
+                    cupiditate blanditiis ratione.
                   </dd>
                   <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                     <a href="#" className="mb-1 mr-2">
@@ -335,9 +339,9 @@ export default function PartnerSection() {
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 lg:text-base text-sm text-justify text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                    impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-                    ratione.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maiores impedit perferendis suscipit eaque, iste dolor
+                    cupiditate blanditiis ratione.
                   </dd>
                   <dd className="cursor-pointer flex flex-row items-center mt-6 ml-16 lg:text-base text-sm font-sans font-semibold text-orange-600 hover:text-orange-700">
                     <a href="#" className="mb-1 mr-2">
@@ -364,7 +368,7 @@ export default function PartnerSection() {
           </div>
         ) : null}
       </div>
-      <div className='py-5'>
+      <div className="py-5">
         <div
           onClick={() => setActive(!active)}
           className="hover:text-orange-700 flex items-center justify-center text-orange-600 shadow-lg w-10 h-10 rounded-full transition duration-200 cursor-pointer"

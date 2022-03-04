@@ -3,8 +3,9 @@
   "semi": false,
   "singleQuote": true,
   "useTabs": false,
+  "tabWidth": 2,
   "quoteProps": "consistent",
   "bracketSpacing": true,
   "arrowParens": "always",
-  "printWidth": 90
+  "printWidth": 80
 }
